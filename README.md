@@ -29,10 +29,6 @@ This project is a pose analysis and exercise counter using computer vision techn
 
 1. Clone the repository:
 
-git clone https://github.com/your_username/pose-analysis.git
-cd pose-analysis
-
-
 2. Install the required dependencies:
 
 pip install -r requirements.tx
@@ -43,16 +39,15 @@ pip install -r requirements.tx
 
 2. Update the video filename in the script:
 
-python
-cap = cv2.VideoCapture('trainvd/your_video.mp4')
+  python
+    cap = cv2.VideoCapture('trainvd/your_video.mp4')
 Run the script:
-
-Copy code
-python pose_analysis.py
-The program will process the video and display the analysis on the screen.
+  The program will process the video and display the analysis on the screen.
 
 ## How it Works
 The program uses the Mediapipe library to detect pose landmarks from the video frames. It then calculates the angles between specific body landmarks to analyze the pose. Additionally, it performs a curl counter by tracking specific angles associated with the exercise.
+
+https://github.com/MohamedAlaouiMhamdi/AI_Exercices_counter/assets/98537138/7a6fea43-bc5f-4712-a09f-4ac746f1062d
 
 ## Results
 Include here any relevant screenshots, GIFs, or videos that showcase the project in action.
