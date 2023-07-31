@@ -51,14 +51,14 @@ Copy code
 python pose_analysis.py
 The program will process the video and display the analysis on the screen.
 
-##How it Works
+## How it Works
 The program uses the Mediapipe library to detect pose landmarks from the video frames. It then calculates the angles between specific body landmarks to analyze the pose. Additionally, it performs a curl counter by tracking specific angles associated with the exercise.
 
-##Results
+## Results
 Include here any relevant screenshots, GIFs, or videos that showcase the project in action.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have ideas for improvements, please open an issue or create a pull request.
 
-##License
+## License
 This project is licensed under the MIT License.
